@@ -4,7 +4,6 @@
 - Python 3.5
 - Django 2.1
 - Postgresql database
-- macOS
 
 
 # steps
