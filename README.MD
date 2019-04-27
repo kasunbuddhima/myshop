@@ -86,7 +86,7 @@ Go inside myshop (main) directory
 (myshop)$ ./manage.py runserver --settings=myshop.settings.local
 ```
 
-create a new product short_info accessing dashboard
+create a new product with short_info browsing dashboard
 http://localhost:8000/dashboard/
 
 
