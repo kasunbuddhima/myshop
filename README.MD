@@ -41,6 +41,7 @@ settings/
 	prod.py     (should be gitignored)
 ```
 
+
 - Create wsgi.py inside myshop app with the following content
 ```
 import os
