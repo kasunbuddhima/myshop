@@ -5,7 +5,7 @@
 /myshop/wsgi.py
 .idea/
 /media/
-
+/static/
 /Product/migrations
 
 
