@@ -41,7 +41,17 @@ settings/
 	prod.py     (should be gitignored)
 ```
 
-Go inside myshop directory
+- Create wsgi.py inside myshop app with the following content
+```
+import os
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myshop.settings.local') # change it depending on the environment
+
+application = get_wsgi_application()
+```
+
+Go inside myshop (main) directory
 
 - Install requirements
 ```
