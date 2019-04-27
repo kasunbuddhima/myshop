@@ -77,9 +77,7 @@ create a new product short_info accessing dashboard
 http://localhost:8000/dashboard/
 
 
-Assignment
-
-- Expanded fields in product model
+- Expanded fields of the oscar product model
 is_active = models.BooleanField(default=False, help_text='indicates whether products is active or not')
 short_info = models.TextField(blank=True, null=True, help_text='short details about product')
 
