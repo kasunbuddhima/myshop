@@ -9,11 +9,13 @@
 # steps
 
 - First of all make sure a virtual environment is created and it is activated
+```
 $ virtualenv venv -p python3
 $ source venv/bin/activate
+```
 
 - Create myshop_settings.ini file in somewhere safe inside the development pc to protect password credentials
-e.g /etc/settings/myshop_settings.ini
+e.g. /etc/settings/myshop_settings.ini
 
 And fill database details and secret key as following
 
